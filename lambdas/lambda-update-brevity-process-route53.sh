@@ -1,5 +1,5 @@
 #!/bin/bash
-LAMBDANAME="brevity-operation-ipinfo"
+LAMBDANAME="brevity-process-route53"
 mkdir /home/ec2-user/environment/ipinfo/build/$LAMBDANAME
 cp /home/ec2-user/environment/ipinfo/lambdas/lambda_function_$LAMBDANAME.py /home/ec2-user/environment/ipinfo/build/$LAMBDANAME/lambda_function.py
 cd /home/ec2-user/environment/ipinfo/build/$LAMBDANAME
